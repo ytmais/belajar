@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <div class="container nav-container">
+            <h1 class="logo">LogoMerek</h1>
+            <ul class="menu">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#fitur">Fitur</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kontak" class="btn-outline">Hubungi Kami</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Beranda / Hero -->
+    <section id="beranda" class="hero">
+        <div class="container">
+            <h1>Selamat Datang di Website Kami</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+            <a href="#fitur" class="btn-primary">Mulai Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Fitur -->
+    <section id="fitur" class="fitur">
+        <div class="container">
+            <h2>Fitur Utama</h2>
+            <div class="fitur-grid">
+                <div class="fitur-card">
+                    <h3>Fitur 1</h3>
+                    <p>Deskripsi singkat tentang fitur pertama ini.</p>
+                </div>
+                <div class="fitur-card">
+                    <h3>Fitur 2</h3>
+                    <p>Deskripsi singkat tentang fitur kedua ini.</p>
+                </div>
+                <div class="fitur-card">
+                    <h3>Fitur 3</h3>
+                    <p>Deskripsi singkat tentang fitur ketiga ini.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang" class="tentang">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <form id="form-kontak">
+                <input type="text" name="nama" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="pesan" rows="4" placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn-primary">Kirim</button>
+            </form>
+            <p id="status-pesan" class="status" style="display:none;"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 LogoMerek. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
